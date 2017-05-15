@@ -205,10 +205,10 @@ static const char UNUSED* ipcash_strings[] = {
     QT_TRANSLATE_NOOP("ipcash-core", ""
                                    "You must specify a masternodeprivkey in the configuration. Please see "
                                    "documentation for help."),
-    QT_TRANSLATE_NOOP("ipcash-core", "(51472 could be used only on mainnet)"),
+    QT_TRANSLATE_NOOP("ipcash-core", "(55994 could be used only on mainnet)"),
     QT_TRANSLATE_NOOP("ipcash-core", "(default: %s)"),
     QT_TRANSLATE_NOOP("ipcash-core", "(default: 1)"),
-    QT_TRANSLATE_NOOP("ipcash-core", "(must be 51472 for mainnet)"),
+    QT_TRANSLATE_NOOP("ipcash-core", "(must be 55994 for mainnet)"),
     QT_TRANSLATE_NOOP("ipcash-core", "<category> can be:\n"),
     QT_TRANSLATE_NOOP("ipcash-core", "Accept command line and JSON-RPC commands"),
     QT_TRANSLATE_NOOP("ipcash-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
