@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
+SystemD: ipcashd.service
+Upstart: ipcashd.conf
+OpenRC:  ipcashd.openrc
+         ipcashd.openrcconf
+CentOS:  ipcashd.init
 
 have been made available to assist packagers in creating node packages here.
 

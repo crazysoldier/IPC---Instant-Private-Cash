@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between pivx-cli and pivxd)
- * of a given instance of the Pivx system.
+ * CBaseChainParams defines the base parameters (shared between ipcash-cli and ipcashd)
+ * of a given instance of the Ipcash system.
  */
 class CBaseChainParams
 {

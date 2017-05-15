@@ -1,0 +1,26 @@
+[Unit]
+Description=IPC's distributed currency daemon
+After=network.target
+
+[Service]
+User=ipcash
+Group=ipcash
+
+Type=forking
+PIDFile=/var/lib/ipcashd/ipcashd.pid
+
+ExecStart=/usr/bin/ipcashd -daemon -pid=/var/lib/ipcashd/ipcashd.pid \
+          -conf=/etc/ipcash/ipcash.conf -datadir=/var/lib/ipcashd
+
+ExecStop=-/usr/bin/ipcash-cli -conf=/etc/ipcash/ipcash.conf \
+         -datadir=/var/lib/ipcashd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

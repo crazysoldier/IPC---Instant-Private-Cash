@@ -1,0 +1,26 @@
+# /etc/conf.d/ipcashd: config file for /etc/init.d/ipcashd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ipcash/ipcash.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ipcashd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ipcashd.pid"
+
+# Where to write ipcashd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ipcashd"
+
+# User and group to own ipcashd process
+#BITCOIND_USER="ipcash"
+#BITCOIND_GROUP="ipcash"
+
+# Path to ipcashd executable
+#BITCOIND_BIN="/usr/bin/ipcashd"
+
+# Nice value to run ipcashd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
